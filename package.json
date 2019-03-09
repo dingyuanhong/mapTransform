@@ -1,0 +1,52 @@
+{
+  "name": "test",
+  "version": "6.0.0",
+  "description": "API for various map tile backends",
+  "url": "http://github.com/mapbox/tilelive.js",
+  "keywords": [
+    "map",
+    "mapnik",
+    "tiles"
+  ],
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mapbox/tilelive.js.git"
+  },
+  "author": {
+    "name": "Mapbox",
+    "url": "https://www.mapbox.com/",
+    "email": "info@mapbox.com"
+  },
+  "contributors": [
+    "Tom MacWright <tmcw>",
+    "Will White <willwhite>",
+    "Dane Springmeyer <springmeyer>",
+    "Young Hahn <yhahn>",
+    "Konstantin Käfer <kkaefer>",
+    "Blake Thompson <flippmoke>"
+  ],
+  "dependencies": {
+    "async": "^2.6.1",
+    "dump-tile": "^1.0.0",
+    "fast-osm-json": "^1.0.1",
+    "geojson-vt": "^3.2.1",
+    "osm-pbf-parser": "^2.3.0",
+    "osm2geojson-lite": "^0.7.2",
+    "pbf2json": "^5.0.1",
+    "request": "^2.88.0",
+    "through2": "^3.0.0",
+    "vt-geojson": "^2.1.1",
+    "vt-pbf": "^3.1.1",
+    "vt2geojson": "^1.1.0",
+    "xml2geojson-lite": "^0.7.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4"
+  }
+}
